@@ -1,0 +1,83 @@
+body {
+    background-color: blueviolet;
+    background-image: url(https://littleastronomy.com/wp-content/uploads/2019/04/pink_planets-1-1170x508.jpg);
+    height: 500px;
+    width: auto;
+}
+
+.rectangle {
+    height: 75px;
+    width: 750px;
+    border: solid black;
+    
+  }
+
+.button{
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+}
+
+.EnemyShips{
+    height: 100px;
+    width: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    animation: myfirst 5s linear 2s infinite alternate;
+    margin: 1.5%;
+}
+
+
+@keyframes myfirst {
+    0%   {right:0px; top:0px;}
+    25%  {right:200px; top:0px;}
+    50%  {right:200px; top:200px;}
+    75%  {right:0px; top:200px;}
+    100% {right:0px; top:0px;}
+
+}
+
+.NumShips{
+    height: 75px;
+    width: auto;
+    display: flex;
+}
+
+h2{
+    font-style: italic;
+    justify-content: center;
+    display: flex;
+}
+
+.Directions{
+    display: flex;
+    font-size: medium;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.MyOwnShips1{
+    height: 65px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.btn{
+    height: 75px;
+    width: 175px;
+    border-radius: 50%;
+    font-size: large;
+    border-radius: 15px;
+}
+
+
+
+
+
